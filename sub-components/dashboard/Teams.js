@@ -6,7 +6,22 @@ import { MoreVertical } from 'react-feather';
 
 // import required data files
 import TeamsData from "data/dashboard/TeamsData";
-
+const iframe = () => {
+    return (
+      <div style={{ width: '100%', height: '500px', overflow: 'hidden' }}>
+        <iframe
+          src="https://umn.maps.arcgis.com/apps/instant/basic/index.html?appid=0f7b9679ac00410eb73f73ca731a8084"
+          width="100%"
+          height="100%"
+          frameBorder="0"
+          style={{ border: '0' }}
+          allowFullScreen=""
+          aria-hidden="false"
+          tabIndex="0"
+        ></iframe>
+      </div>
+    );
+  };
 const Teams = () => {
 
     const CustomToggle = React.forwardRef(({ children, onClick }, ref) => (
@@ -88,4 +103,4 @@ const Teams = () => {
     )
 }
 
-export default Teams
+export default iframe
