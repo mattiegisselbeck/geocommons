@@ -7,6 +7,7 @@
 import ActiveProjects from 'sub-components/dashboard/ActiveProjects';
 import TasksPerformance from 'sub-components/dashboard/TasksPerformance';
 import Teams from 'sub-components/dashboard/Teams';
+import IFrame from '/Users/mattiegisselbeck/Documents/GitHub/geocommons/sub-components/dashboard/Page.js';
 
 // sub components for /pages/profile
 import AboutMe from 'sub-components/profile/AboutMe';
@@ -26,6 +27,8 @@ import EmailSetting from 'sub-components/settings/EmailSetting';
 import GeneralSetting from 'sub-components/settings/GeneralSetting';
 import Notifications from 'sub-components/settings/Notifications';
 import Preferences from 'sub-components/settings/Preferences';
+
+// sub components for /pages/
 
 
 export {
