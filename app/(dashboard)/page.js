@@ -14,6 +14,7 @@ import { ActiveProjects, Teams,
 
 // import required data files
 import ProjectsStatsData from "data/dashboard/ProjectsStatsData";
+import IFrame from "sub-components/dashboard/IFrame";
 
 const Home = () => {
     return (
@@ -44,7 +45,7 @@ const Home = () => {
                 </Row>
 
                 {/* Active Projects  */}
-                <ActiveProjects />
+                <IFrame />
 
                 <Row className="my-6">
                     <Col xl={4} lg={12} md={12} xs={12} className="mb-6 mb-xl-0">
