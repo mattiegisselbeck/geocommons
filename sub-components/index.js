@@ -7,7 +7,7 @@
 import ActiveProjects from 'sub-components/dashboard/ActiveProjects';
 import TasksPerformance from 'sub-components/dashboard/TasksPerformance';
 import Teams from 'sub-components/dashboard/Teams';
-import IFrame from '/Users/mattiegisselbeck/Documents/GitHub/geocommons/sub-components/dashboard/Page.js';
+import IFrame from 'sub-components/dashboard/IFrame';
 
 // sub components for /pages/profile
 import AboutMe from 'sub-components/profile/AboutMe';

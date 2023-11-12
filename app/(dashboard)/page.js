@@ -24,6 +24,14 @@ const Home = () => {
                     <Col lg={12} md={12} xs={12}>
                         {/* Page header */}
                         <div>
+                            <div className="d-flex justify-content-between align-items-center">
+                                <div className="mb-2 mb-lg-0">
+                                    <h3 className="mb-0  text-white">Projects</h3>
+                                </div>
+                                <div>
+                                    <Link href="#" className="btn btn-white">Create New Project</Link>
+                                </div>
+                            </div>
                         </div>
                     </Col>
                     {ProjectsStatsData.map((item, index) => {
